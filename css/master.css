@@ -6,7 +6,7 @@ body{
 
 .mainHeader img {
   height: 100px;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-top: 10px;
 }
 
@@ -55,25 +55,6 @@ body{
   width: 100%;
 }
 
-.topContent div a .text{
-background-color: #FC04B4;
-font-size: 120%;
-padding: 10px;
-border-radius: 5px;
-box-shadow: 0px 5px 20px black ;
-}
-
-.topContent div a{
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding: 90px 0;
-  text-decoration: none;
-  color: #FBFBFC;
-
-}
-
 .topContent div{
   width: 20%;
   height: 200px;
@@ -85,6 +66,28 @@ box-shadow: 0px 5px 20px black ;
   margin-left: 4%;
   margin-top: 2%;
 }
+
+.topContent div a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 90px 0 0 0;
+  text-decoration: none;
+  color: #FBFBFC;
+    height: 110px;
+}
+
+.topContent div a .text{
+background-color: #FC04B4;
+font-size: 120%;
+padding: 10px;
+border-radius: 5px;
+box-shadow: 0px 5px 20px black ;
+}
+
+
+
 
 .img1{
   background-image: url("../img/img1.png");
